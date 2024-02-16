@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffe0f0; /* Fundo rosado suave */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #fff; /* Fundo branco para o container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidade */
+}
+
+h1 {
+    color: #d6336c; /* Título em tom rosado mais forte */
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px; /* Botões arredondados */
+    background-color: #f78fb3; /* Cor de fundo rosada para os botões */
+    color: #fff; /* Texto branco nos botões */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Transições suaves para hover */
+}
+
+button:hover {
+    background-color: #d6336c; /* Cor de hover mais intensa */
+    transform: scale(1.05); /* Efeito de crescimento ao passar o mouse */
+}
